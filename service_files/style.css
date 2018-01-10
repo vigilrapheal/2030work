@@ -1,9 +1,9 @@
 /*
-Theme Name: Nove
-Theme URI: http://www.nove.eu/
+Theme Name: Work2030
+Theme URI: http://www.2030.work/
 Author: Atelier Design
 Author URI: http://www.atelierdesign.be
-Description: Nove Theme
+Description: Work2030 Theme
 Version: 1.0.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -4229,12 +4229,12 @@ h2 {
       display: none; }
     #twitterBoxHome .juiz_last_tweet_follow_us {
       display: none !important; }
-    #twitterBoxHome .juiz_last_tweet_inside.juiz_ltw_user_NoveBrussels,
+    #twitterBoxHome .juiz_last_tweet_inside.juiz_ltw_user_Work2030Brussels,
     #twitterBoxHome .juiz_last_tweet_tweetlist {
       max-height: 10vw !important;
       color: #13294b !important;
       color: white !important; }
-      #twitterBoxHome .juiz_last_tweet_inside.juiz_ltw_user_NoveBrussels *,
+      #twitterBoxHome .juiz_last_tweet_inside.juiz_ltw_user_Work2030Brussels *,
       #twitterBoxHome .juiz_last_tweet_tweetlist * {
         color: #13294b !important;
         color: white !important; }

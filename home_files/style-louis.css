@@ -166,7 +166,13 @@
   z-index: 1;
 }
 
-
+.video-cont .videoOverlay {
+  background: #333; 
+}
+.videoOverlay img {
+  opacity: 0; 
+  visibility: hidden; 
+}
 
 .jobAnnonce {
   max-height: none; 

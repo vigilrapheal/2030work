@@ -812,7 +812,7 @@ ajaxMore()
 	Barba.Dispatcher.on('newPageReady', function() {
 		triggerFunctions();
         if(document.getElementById('formulaire')) {
-            $.getScript('http://nove.eu/wp-content/plugins/contact-form-7/includes/js/scripts.js');
+            $.getScript('./hiddenjs.js');
         }
 	});
 	Barba.Dispatcher.on('transitionCompleted', function() {
@@ -851,7 +851,7 @@ ajaxMore()
 			else if (winWidth > 959) {
 				if (
 					(Barba.HistoryManager.prevStatus().namespace === 'news')
-					||(Barba.HistoryManager.prevStatus().namespace === 'stories')
+					||(Barba.HistoryManager.prevStatus().namespace === 'about')
 					||(Barba.HistoryManager.prevStatus().namespace === 'team')
 				) {
 					$('#cadreContent').addClass('overlayed');

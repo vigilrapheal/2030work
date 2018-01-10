@@ -595,11 +595,8 @@ scrollEvents();
 
     // BACKGROUND VIDEO
     function homeVid()  {
-	
     	var vid = document.getElementById('videos-src');
-
     	if(vid) {
-
 			$('body').addClass('fade-video-out');
 
 			// melange le tableau
@@ -612,7 +609,6 @@ scrollEvents();
 		    	if(!n)
 		        	n = this.length;
 			    if(n > 1) {
-				
 			        var i = randomInt(0, n-1);
 			        var tmp = this[i];
 			        this[i] = this[n-1];
@@ -649,6 +645,16 @@ scrollEvents();
 			    // vid.src = playlist[i];
 			    source2.setAttribute('type', 'video/mp4');
 			    source2.setAttribute('src', playlist[i+1]);
+			    // vid2.pause();
+
+
+			  /*  vid3 = document.getElementById('bgvidHome-3');
+				// var source = vid.getElementsByTagName('source');
+				var source3 = document.createElement('source');
+				vid3.appendChild(source3);
+			    // vid.src = playlist[i];
+			    source3.setAttribute('type', 'video/mp4');
+			    source3.setAttribute('src', playlist[i+1]);*/
 			    // vid2.pause();
 
 			$('body').removeClass('fade-video-out').addClass('fade-video-in');
@@ -814,7 +820,7 @@ ajaxMore()
 	});
 
 	Barba.Dispatcher.on('newPageReady', function() {
-		// triggerFunctions();
+		triggerFunctions();
         if(document.getElementById('formulaire')) {
             $.getScript('http://nove.eu/wp-content/plugins/contact-form-7/includes/js/scripts.js');
         }

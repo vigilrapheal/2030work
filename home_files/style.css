@@ -1,10 +1,9 @@
 /*
-#13294b
-Theme Name: work2030
-Theme URI: ''
+Theme Name: Nove
+Theme URI: http://www.nove.eu/
 Author: Atelier Design
 Author URI: http://www.atelierdesign.be
-Description: work2030 Theme
+Description: Nove Theme
 Version: 1.0.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -58,7 +57,7 @@ img {
   z-index: -100;
   transform: translateX(-50%);
   opacity: 1;
-background: black;
+  background: black;
   margin-top: 0;
   background-size: cover; }
 
@@ -6293,12 +6292,7 @@ a .multi-ellipsis.videopreview-ellipsis > div > .hidden {
   .flexHead.noHeight {
     height: auto; } }
 [data-namespace="home-template.php"] {
-  /*background: black;*/
-  background-image: url("./ezgif.com-video-to-gif.gif");
-  opacity: .9; 
-  /*width: 10px;*/
-  background-size:cover;
-}
+  background: black; }
 
 body {
   background-color: #13294b !important; }
@@ -6693,7 +6687,7 @@ p.contactTel {
     margin-top: 0px; } }
 @media (max-width: 959px) {
   #bod.bgGrisClair.bgStorie {
-    background: #13294b !important; }
+    background: #13294B !important; }
 
   #v.colGauche.colGaucheContent.bgGrisClair.colGaucheStories.pageStories {
     transition: opacity 0.5s; } }
